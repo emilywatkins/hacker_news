@@ -1,0 +1,7 @@
+<%= render "layouts/errors", :object => @link %>
+
+<%= form_for @link do |f| %>
+  <%= f.label :headline %>
+  <%= f.text_field :headline %>
+  <%= f.submit %>
+<% end %>
