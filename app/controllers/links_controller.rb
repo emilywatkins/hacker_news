@@ -44,6 +44,6 @@ end
 
 private
   def link_params
-    params.require(:link).permit(:headline)
+    params.require(:link).permit(:headline, :url)
   end
 end

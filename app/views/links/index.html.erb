@@ -2,7 +2,7 @@
 <h1>Hackerz</h1>
 <ul>
   <% @links.each do |link| %>
-    <li><%= link_to link.headline, link_path(link) %></li>
+    <li><%= link_to link.headline, link.url %></li>
   <% end %>
 </ul>
 
